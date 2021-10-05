@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gold{
+    background-color: gold;
+}
+
+.light-blue{
+    background-color: #00A3D9;
+}
+
+/*------CLASSES GERAIS- FRAMEWORK-----*/
+section container{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    max-width: 960px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.w33{
+    width: 33.3%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.promo{
+    padding: 40px 0;
+}
+
+.text-white{
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .w50, .w33{
+        width: 100%;
+    }
+
+    .left, .right, .center{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}

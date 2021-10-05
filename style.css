@@ -1,0 +1,36 @@
+/*-------CLASSES ESPECIFICAS PARA NOSSO SITE------*/
+header.topo-site{
+    padding: 20px 0;
+}
+
+header.topo-site a{
+    text-decoration: none;
+}
+
+header.topo-site ul li{
+    font-size: 17px;
+    position: relative;
+    top: 4px;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.logo{
+    font-size: 22px;
+    font-family: verdana;
+}
+
+.slider{
+    height: 500px;
+}
+
+.slider p{
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%);
+    font-size: 23px;
+    color: white;
+    display: inline-block;
+    border-bottom: 4px solid white;
+}
+
